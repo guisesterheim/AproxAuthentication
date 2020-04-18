@@ -1,4 +1,4 @@
-package com.aprox.service;
+package com.aprox.authentication.service;
 
 import com.aprox.authentication.model.Role;
 import com.aprox.authentication.model.User;
@@ -8,10 +8,12 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.*;
 
+@Service
 public class UserDetailService implements UserDetailsService {
 
     @Autowired

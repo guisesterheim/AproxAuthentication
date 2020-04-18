@@ -1,15 +1,17 @@
-package com.aprox.service;
+package com.aprox.authentication.service;
 
 import com.aprox.authentication.model.Role;
 import com.aprox.authentication.model.User;
-import com.aprox.repositories.RoleRepository;
-import com.aprox.repositories.UserRepository;
+import com.aprox.authentication.repositories.RoleRepository;
+import com.aprox.authentication.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 import java.util.HashSet;
 
+@Service
 public class UserService {
 
     private UserRepository userRepository;
