@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd73d47f-7f1f-4199-8543-addbd70302ca" name="Default Changelist" comment="" />
+    <list default="true" id="cd73d47f-7f1f-4199-8543-addbd70302ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/security/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,6 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1aQLHfG9ekqr8mErzpsWxFfnjNt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,12 +45,76 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/aprox/authentication/model" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.aprox" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aprox.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/aprox/authentication/model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aprox.Application" />
+      <module name="Authentication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aprox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="WindowStateProjectService">
+    <state x="584" y="1124" width="847" height="677" key="#Project_Structure" timestamp="1586663548497">
+      <screen x="0" y="0" width="1920" height="1848" />
+    </state>
+    <state x="584" y="1124" width="847" height="677" key="#Project_Structure/0.0.1920.1848@0.0.1920.1848" timestamp="1586663548497" />
+    <state x="433" y="243" width="500" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587246256722">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="433" y="243" width="500" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587246256722" />
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom" timestamp="1587248014288">
+      <screen x="306" y="1080" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587247497942" />
+    <state width="1320" height="184" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587248014288" />
+    <state width="1320" height="184" key="GridCell.Tab.0.center" timestamp="1587248014288">
+      <screen x="306" y="1080" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587247497942" />
+    <state width="1320" height="184" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587248014288" />
+    <state width="1320" height="184" key="GridCell.Tab.0.left" timestamp="1587248014288">
+      <screen x="306" y="1080" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587247497942" />
+    <state width="1320" height="184" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587248014288" />
+    <state width="1320" height="184" key="GridCell.Tab.0.right" timestamp="1587248014288">
+      <screen x="306" y="1080" width="1366" height="768" />
+    </state>
+    <state width="1320" height="184" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587247497942" />
+    <state width="1320" height="184" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587248014288" />
     <state x="478" y="1098" key="SettingsEditor" timestamp="1586663108123">
       <screen x="0" y="0" width="1920" height="1848" />
     </state>
@@ -36,5 +123,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586662788086" />
+    <state x="306" y="1154" width="1366" height="618" key="new project wizard" timestamp="1586663512204">
+      <screen x="0" y="0" width="1920" height="1848" />
+    </state>
+    <state x="306" y="1154" width="1366" height="618" key="new project wizard/0.0.1920.1848@0.0.1920.1848" timestamp="1586663512204" />
   </component>
 </project>
