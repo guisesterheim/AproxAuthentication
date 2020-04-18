@@ -15,13 +15,20 @@ public class MainController {
 
     @GetMapping
     @RequestMapping("/")
-    public ResponseEntity<String> redirect(){
-        return healthCheck();
+    public ResponseEntity<String> home(){
+        return ResponseEntity.ok("Not authenticated");
     }
 
     @GetMapping
     @RequestMapping("/healthCheck")
     public ResponseEntity<String> healthCheck(){
-        return ResponseEntity.ok("HealthCheck OK!");
+        return ResponseEntity.ok("Health check OK!");
     }
+
+    @GetMapping
+    @RequestMapping("/api")
+    public ResponseEntity<String> apiHome(){
+        return ResponseEntity.ok("Authenticated OK!");
+    }
+
 }

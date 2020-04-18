@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd73d47f-7f1f-4199-8543-addbd70302ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/security/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/service/UserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.migration/V1__Initial.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aprox/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprox/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aprox/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprox/security/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aprox/controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/security/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aprox/security/SecurityConfiguration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/aprox/authentication/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -57,16 +62,26 @@
       <recent name="com.aprox" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aprox.service" />
+      <recent name="com.aprox.repositories" />
       <recent name="com.aprox.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db.migration" />
       <recent name="$PROJECT_DIR$/src/main/java/com/aprox/authentication/model" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="APROX_CLIENT_DATABASE_URL" value="jdbc:mysql://localhost:3306/client_database" />
+        <env name="APROX_CLIENT_DATABASE_USER" value="root" />
+        <env name="APROX_CLIENT_DATABASE_PASSWORD" value="clientDatabase421!" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="com.aprox.Application" />
       <module name="Authentication" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.aprox.*" />
@@ -91,30 +106,46 @@
       <screen x="0" y="0" width="1920" height="1848" />
     </state>
     <state x="584" y="1124" width="847" height="677" key="#Project_Structure/0.0.1920.1848@0.0.1920.1848" timestamp="1586663548497" />
+    <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587251197365">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587251197365" />
+    <state x="768" y="226" width="374" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1587250450737">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="768" y="226" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587250450737" />
     <state x="433" y="243" width="500" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587246256722">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="433" y="243" width="500" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587246256722" />
-    <state width="1320" height="184" key="GridCell.Tab.0.bottom" timestamp="1587248014288">
-      <screen x="306" y="1080" width="1366" height="768" />
+    <state width="1874" height="184" key="GridCell.Tab.0.bottom" timestamp="1587251366771">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1320" height="184" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587247497942" />
+    <state width="1874" height="184" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587251366771" />
     <state width="1320" height="184" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587248014288" />
-    <state width="1320" height="184" key="GridCell.Tab.0.center" timestamp="1587248014288">
-      <screen x="306" y="1080" width="1366" height="768" />
+    <state width="1874" height="184" key="GridCell.Tab.0.center" timestamp="1587251366771">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1320" height="184" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587247497942" />
+    <state width="1874" height="184" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587251366771" />
     <state width="1320" height="184" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587248014288" />
-    <state width="1320" height="184" key="GridCell.Tab.0.left" timestamp="1587248014288">
-      <screen x="306" y="1080" width="1366" height="768" />
+    <state width="1874" height="184" key="GridCell.Tab.0.left" timestamp="1587251366771">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1320" height="184" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587247497942" />
+    <state width="1874" height="184" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587251366771" />
     <state width="1320" height="184" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587248014288" />
-    <state width="1320" height="184" key="GridCell.Tab.0.right" timestamp="1587248014288">
-      <screen x="306" y="1080" width="1366" height="768" />
+    <state width="1874" height="184" key="GridCell.Tab.0.right" timestamp="1587251366771">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1320" height="184" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587247497942" />
+    <state width="1874" height="184" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587251366771" />
     <state width="1320" height="184" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587248014288" />
+    <state x="493" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1587249712124">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="493" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587249712124" />
     <state x="478" y="1098" key="SettingsEditor" timestamp="1586663108123">
       <screen x="0" y="0" width="1920" height="1848" />
     </state>
@@ -127,5 +158,13 @@
       <screen x="0" y="0" width="1920" height="1848" />
     </state>
     <state x="306" y="1154" width="1366" height="618" key="new project wizard/0.0.1920.1848@0.0.1920.1848" timestamp="1586663512204" />
+    <state x="624" y="246" width="672" height="677" key="run.anything.popup" timestamp="1587251357786">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="624" y="246" width="672" height="677" key="run.anything.popup/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587251357786" />
+    <state x="623" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1587250446074">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="237" width="672" height="678" key="search.everywhere.popup/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587250446074" />
   </component>
 </project>
