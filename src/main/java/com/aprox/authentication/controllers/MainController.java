@@ -33,5 +33,5 @@ public class MainController {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         return "Authenticated OK!";
     }
-    
+
 }
