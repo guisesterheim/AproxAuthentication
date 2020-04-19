@@ -27,6 +27,3 @@ CREATE TABLE `authentication_database`.`user_role` (
     REFERENCES `authentication_database`.`role` (`id`)
     ON DELETE RESTRICT
     ON UPDATE RESTRICT);
-
-INSERT INTO `authentication_database`.`role` (`role`) VALUES ('ADMIN');
-INSERT INTO `authentication_database`.`role` (`role`) VALUES ('USER');

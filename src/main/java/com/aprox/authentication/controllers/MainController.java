@@ -1,34 +1,37 @@
 package com.aprox.authentication.controllers;
 
+import com.aprox.authentication.model.User;
+import com.aprox.authentication.service.UserDetailService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.validation.Valid;
+import java.util.*;
 
 @RestController
-@RequestMapping("/")
 public class MainController {
 
-    @GetMapping
-    @RequestMapping("/")
-    public ResponseEntity<String> home(){
-        return ResponseEntity.ok("Not authenticated");
+    @GetMapping("/")
+    public String index(){
+        return "index";
     }
 
-    @GetMapping
-    @RequestMapping("/healthCheck")
-    public ResponseEntity<String> healthCheck(){
-        return ResponseEntity.ok("Health check OK!");
+    @RequestMapping(value = "/api")
+    public String apiHome(){
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        return "Authenticated OK!";
     }
-
-    @GetMapping
-    @RequestMapping("/api")
-    public ResponseEntity<String> apiHome(){
-        return ResponseEntity.ok("Authenticated OK!");
-    }
-
+    
 }

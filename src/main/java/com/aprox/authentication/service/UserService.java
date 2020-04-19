@@ -16,26 +16,24 @@ public class UserService {
 
     private UserRepository userRepository;
     private RoleRepository roleRepository;
-    private BCryptPasswordEncoder bCryptPasswordEncoder;
+    private BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
 
     @Autowired
     public UserService(UserRepository userRepository,
-                       RoleRepository roleRepository,
-                       BCryptPasswordEncoder bCryptPasswordEncoder){
+                       RoleRepository roleRepository){
         this.userRepository = userRepository;
         this.roleRepository = roleRepository;
-        this.bCryptPasswordEncoder = bCryptPasswordEncoder;
     }
 
     public User findUserByEmail(String email){
-        return userRepository.findbyEmail(email);
+        return userRepository.findByEmail(email);
     }
 
     public User updateUser(User user){
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
         user.setActive(true);
         Role userRole = roleRepository.findByRole("USER");
-        user.setRoles(new HashSet<Role>(Arrays.asList(userRole)));
+        user.setRole(new HashSet<Role>(Arrays.asList(userRole)));
         return userRepository.save(user);
     }
 
