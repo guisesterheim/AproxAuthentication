@@ -1,7 +1,9 @@
 package com.aprox.authentication.controllers;
 
+import com.aprox.authentication.model.FrontAuthentication;
 import com.aprox.authentication.model.User;
 import com.aprox.authentication.service.UserDetailService;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -40,9 +42,11 @@ public class MainController {
         return "Authenticated OK!";
     }
 
-    @PostMapping("/login")
-    public ResponseEntity login(HttpServletRequest request, @RequestHeader String username, @RequestHeader String password){
-        UsernamePasswordAuthenticationToken authReq = new UsernamePasswordAuthenticationToken(username, password);
+    @PostMapping("/authenticate")
+    public ResponseEntity login(@RequestBody FrontAuthentication frontAuthentication){
+        UsernamePasswordAuthenticationToken authReq = new UsernamePasswordAuthenticationToken(
+                                                            frontAuthentication.getUsername(),
+                                                            frontAuthentication.getPassword());
         Authentication auth = authenticationManager.authenticate(authReq);
         SecurityContext sc = SecurityContextHolder.getContext();
         sc.setAuthentication(auth);
