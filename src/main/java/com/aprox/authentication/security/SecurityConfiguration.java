@@ -36,8 +36,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
         /*
             Use this code to generate new passwords
 
-        String encoded=new BCryptPasswordEncoder().encode("123456");
-        System.out.println(encoded);
+            String encoded=new BCryptPasswordEncoder().encode("123456");
+            System.out.println(encoded);
         */
 
         http.csrf().disable()

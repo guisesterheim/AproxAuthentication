@@ -1,5 +1,6 @@
 package com.aprox.authentication.security;
 
+import com.aprox.authentication.model.FrontAuthentication;
 import com.aprox.authentication.model.User;
 import com.aprox.authentication.service.TokenAuthenticationService;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -14,8 +15,10 @@ import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.Collections;
+import java.util.stream.Collectors;
 
 public class JWTLoginFilter extends AbstractAuthenticationProcessingFilter {
 
@@ -28,9 +31,15 @@ public class JWTLoginFilter extends AbstractAuthenticationProcessingFilter {
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response)
             throws AuthenticationException, IOException, ServletException {
 
+        String body = request.getReader().lines().collect(Collectors.joining());
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        FrontAuthentication frontAuthentication = objectMapper.readValue(body, FrontAuthentication.class);
+
         User credentials = new User();
-        credentials.setEmail(request.getHeader("username"));
-        credentials.setPassword(request.getHeader("password"));
+
+        credentials.setEmail(frontAuthentication.getUsername());
+        credentials.setPassword(frontAuthentication.getPassword());
 
         return getAuthenticationManager().authenticate(
                 new UsernamePasswordAuthenticationToken(

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd73d47f-7f1f-4199-8543-addbd70302ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/model/FrontAuthentication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/security/JWTLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/security/JWTLoginFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/security/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aprox/authentication/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/security/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aprox/authentication/security/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/security/JWTLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aprox/authentication/security/JWTLoginFilter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,52 +141,52 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587264595152" />
-    <state width="1320" height="229" key="GridCell.Tab.0.bottom" timestamp="1587506984637">
+    <state width="1320" height="229" key="GridCell.Tab.0.bottom" timestamp="1587509247307">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="229" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587506984637" />
+    <state width="1320" height="229" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587509247307" />
     <state width="1874" height="229" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740621" />
-    <state width="1320" height="229" key="GridCell.Tab.0.center" timestamp="1587506984637">
+    <state width="1320" height="229" key="GridCell.Tab.0.center" timestamp="1587509247307">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="229" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587506984637" />
+    <state width="1320" height="229" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587509247307" />
     <state width="1874" height="229" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740620" />
-    <state width="1320" height="229" key="GridCell.Tab.0.left" timestamp="1587506984636">
+    <state width="1320" height="229" key="GridCell.Tab.0.left" timestamp="1587509247307">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="229" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587506984636" />
+    <state width="1320" height="229" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587509247307" />
     <state width="1874" height="229" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740620" />
-    <state width="1320" height="229" key="GridCell.Tab.0.right" timestamp="1587506984637">
+    <state width="1320" height="229" key="GridCell.Tab.0.right" timestamp="1587509247307">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="229" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587506984637" />
+    <state width="1320" height="229" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587509247307" />
     <state width="1874" height="229" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740620" />
-    <state width="1320" height="229" key="GridCell.Tab.1.bottom" timestamp="1587506984638">
+    <state width="1320" height="229" key="GridCell.Tab.1.bottom" timestamp="1587509255331">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="229" key="GridCell.Tab.1.bottom/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587506984638" />
+    <state width="1320" height="229" key="GridCell.Tab.1.bottom/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587509255331" />
     <state width="1874" height="229" key="GridCell.Tab.1.bottom/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547780" />
     <state width="1320" height="229" key="GridCell.Tab.1.bottom/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343751999" />
-    <state width="1320" height="229" key="GridCell.Tab.1.center" timestamp="1587506984637">
+    <state width="1320" height="229" key="GridCell.Tab.1.center" timestamp="1587509255331">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="229" key="GridCell.Tab.1.center/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587506984637" />
+    <state width="1320" height="229" key="GridCell.Tab.1.center/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587509255331" />
     <state width="1874" height="229" key="GridCell.Tab.1.center/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547780" />
     <state width="1320" height="229" key="GridCell.Tab.1.center/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343751999" />
-    <state width="1320" height="229" key="GridCell.Tab.1.left" timestamp="1587506984637">
+    <state width="1320" height="229" key="GridCell.Tab.1.left" timestamp="1587509255331">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="229" key="GridCell.Tab.1.left/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587506984637" />
+    <state width="1320" height="229" key="GridCell.Tab.1.left/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587509255331" />
     <state width="1874" height="229" key="GridCell.Tab.1.left/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547780" />
     <state width="1320" height="229" key="GridCell.Tab.1.left/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343751998" />
-    <state width="1320" height="229" key="GridCell.Tab.1.right" timestamp="1587506984638">
+    <state width="1320" height="229" key="GridCell.Tab.1.right" timestamp="1587509255331">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="229" key="GridCell.Tab.1.right/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587506984638" />
+    <state width="1320" height="229" key="GridCell.Tab.1.right/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587509255331" />
     <state width="1874" height="229" key="GridCell.Tab.1.right/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547780" />
     <state width="1320" height="229" key="GridCell.Tab.1.right/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343751999" />
     <state x="493" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1587249712124">
@@ -204,6 +202,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="339" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586662788086" />
+    <state x="451" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587508843075">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="451" y="303" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587508843075" />
     <state x="605" y="278" width="710" height="522" key="find.popup" timestamp="1587298644779">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -263,6 +265,16 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.2.RELEASE/spring-security-core-5.2.2.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java</url>
           <line>89</line>
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/aprox/authentication/security/JWTLoginFilter.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/aprox/authentication/controllers/MainController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
