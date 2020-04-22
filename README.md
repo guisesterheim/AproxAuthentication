@@ -4,4 +4,4 @@
 
 Client Registration service: https://github.com/guisesterheim/AproxClientService
 
-REAL BASIC Front end on Angular (just for testing purposes): https://github.com/guisesterheim/AproxClientFront
+Really BASIC Front end on Angular (just for testing purposes): https://github.com/guisesterheim/AproxClientFront
