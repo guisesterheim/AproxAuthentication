@@ -17,14 +17,18 @@ public class TokenAuthenticationService {
     static final String SECRET = "SeAprcretOx";
     static final String TOKEN_PREFIX = "Bearer";
     static final String HEADER_STRING = "Authorization";
+    static final String HEADER_EXPIRES_AT = "Expires";
 
     public static void addAuthentication(HttpServletResponse response, String username) {
+        Date expiresAt = new Date(System.currentTimeMillis() + EXPIRATION_TIME);
+
         String JWT = Jwts.builder()
                 .setSubject(username)
-                .setExpiration(new Date(System.currentTimeMillis() + EXPIRATION_TIME))
+                .setExpiration(expiresAt)
                 .signWith(SignatureAlgorithm.HS512, SECRET)
                 .compact();
 
+        response.addHeader(HEADER_EXPIRES_AT, String.valueOf(expiresAt.getTime()));
         response.addHeader(HEADER_STRING, TOKEN_PREFIX + " " + JWT);
     }
 

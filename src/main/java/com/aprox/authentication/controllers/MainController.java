@@ -5,6 +5,8 @@ import com.aprox.authentication.model.User;
 import com.aprox.authentication.service.UserDetailService;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -19,10 +21,13 @@ import org.springframework.security.web.authentication.logout.SecurityContextLog
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.*;
 
 @RestController
@@ -31,15 +36,27 @@ public class MainController {
     @Autowired
     private AuthenticationManager authenticationManager;
 
-    @GetMapping("/")
+    @GetMapping("/healthCheck")
     public String index(){
-        return "index";
+        return "OK";
     }
 
-    @RequestMapping(value = "/api")
-    public String apiHome(){
-        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        return "Authenticated OK!";
+    @RequestMapping(value = "/api/**")
+    public ResponseEntity apiHome(@RequestBody (required = false) String body, HttpMethod method, HttpServletRequest request, HttpServletResponse response) throws URISyntaxException {
+        RestTemplate restTemplate = new RestTemplate();
+
+        URI otherMicroservices = new URI("http",
+                                    null,
+                                    "localhost",
+                                    8081,
+                                        request.getRequestURI(),
+                                        request.getQueryString(),
+                                null);
+
+        ResponseEntity resp =
+                restTemplate.exchange(otherMicroservices, method, new HttpEntity<String>(body), String.class);
+
+        return resp;
     }
 
     @PostMapping("/authenticate")
