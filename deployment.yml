@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: authentication
+spec:
+  selector:
+    matchLabels:
+      app: authentication
+  replicas: 1
+  revisionHistoryLimit: 0
+  template:
+    metadata:
+      labels:
+        app: authentication
+    spec:
+      containers:
+      - name: authentication
+        image: DOCKER_IMAGE
+        env:
+          - name: SPRING_PROFILES_ACTIVE
+            value: ENVIRONMENT
+      imagePullSecrets:
+        - name: nexus-registry

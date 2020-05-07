@@ -2,13 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd73d47f-7f1f-4199-8543-addbd70302ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/security/JWTLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/security/JWTLoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/service/TokenAuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aprox/authentication/service/TokenAuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aprox/authentication/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/security/JWTLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aprox/authentication/security/JWTLoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/service/TokenAuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aprox/authentication/service/TokenAuthenticationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthenticationService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V4__Create_roles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__Create_roles.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AuthenticationService.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/controllers/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/model/FrontAuthentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/repositories/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/security/JWTAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/security/JWTLoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/security/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/security/SecurityWebApplicationInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/service/TokenAuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/service/UserDetailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/aprox/authentication/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__Initial.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V2__Update_user_role_table_name.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V3__Update_user_role_table_name2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V4__Create_roles.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +50,42 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="240" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Authentication" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Authentication" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Authentication" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,31 +114,34 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/db/migration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../event-service" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.aprox" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
-      <recent name="$PROJECT_DIR$/src/main/resources/db.migration" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/aprox/authentication/model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aprox.service" />
       <recent name="com.aprox.repositories" />
       <recent name="com.aprox.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db.migration" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/aprox/authentication/model" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -79,54 +151,131 @@
       <command value="mvn flyway:migrate" />
       <command value="mvn install" />
       <command value="mvn clean" />
+      <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="APROX_CLIENT_DATABASE_URL" value="jdbc:mysql://localhost:3306/client_database" />
-        <env name="APROX_CLIENT_DATABASE_USER" value="root" />
-        <env name="APROX_CLIENT_DATABASE_PASSWORD" value="clientDatabase421!" />
-      </envs>
+  <component name="RunManager" selected="Application.DEV">
+    <configuration name="DEV" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.aprox.Application" />
-      <module name="AuthenticationService" />
+      <module name="Authentication.main" />
       <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aprox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PROD" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.aprox.Application" />
+      <module name="Authentication.main" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=prod" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.aprox.Application" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Authentication [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Authentication [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Dspring.profiles.active=dev" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="-Dspring.profiles.active=dev" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.DEV" />
+      <item itemvalue="Application.PROD" />
+      <item itemvalue="Gradle.Authentication [build]" />
+      <item itemvalue="Gradle.Authentication [clean]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Gradle.Authentication [clean]" />
+        <item itemvalue="Gradle.Authentication [build]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="584" y="1124" width="847" height="677" key="#Project_Structure" timestamp="1586663548497">
-      <screen x="0" y="0" width="1920" height="1848" />
+    <state x="1985" y="196" width="671" height="685" key="#DEV" timestamp="1588815051454">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1985" y="196" width="671" height="685" key="#DEV/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588815051454" />
+    <state x="1950" y="552" width="847" height="528" key="#Project_Structure" timestamp="1588814546911">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="584" y="1124" width="847" height="677" key="#Project_Structure/0.0.1920.1848@0.0.1920.1848" timestamp="1586663548497" />
-    <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587255904748">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1950" y="552" width="847" height="528" key="#Project_Structure/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588814546911" />
+    <state x="1784" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588818624645">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="1784" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588818624645" />
     <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587255904748" />
     <state x="546" y="161" width="317" height="446" key="#com.intellij.ide.util.MemberChooser" timestamp="1587506938946">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="161" width="317" height="446" key="#com.intellij.ide.util.MemberChooser/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587506938946" />
     <state x="768" y="226" width="374" height="626" key="#com.intellij.ide.util.MemberChooser/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587262720503" />
-    <state x="692" y="325" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587253586747">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2060" y="384" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588805542586">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="2060" y="384" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588805542586" />
     <state x="692" y="325" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587253586747" />
     <state x="484" y="466" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587252966032">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -140,58 +289,71 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="479" height="506" key="DebuggerActiveHint/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587301401851" />
-    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587264595152">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2109" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1588810191688">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="2109" y="297" width="424" height="484" key="FileChooserDialogImpl/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588810191688" />
     <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587264595152" />
-    <state width="1320" height="229" key="GridCell.Tab.0.bottom" timestamp="1587515688015">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1874" height="338" key="GridCell.Tab.0.bottom" timestamp="1588818766644">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="338" key="GridCell.Tab.0.bottom/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588818766644" />
     <state width="1320" height="229" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740621" />
-    <state width="1320" height="229" key="GridCell.Tab.0.center" timestamp="1587515688015">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1874" height="338" key="GridCell.Tab.0.center" timestamp="1588818766644">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="338" key="GridCell.Tab.0.center/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588818766644" />
     <state width="1320" height="229" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740620" />
-    <state width="1320" height="229" key="GridCell.Tab.0.left" timestamp="1587515688015">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1874" height="338" key="GridCell.Tab.0.left" timestamp="1588818766644">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="338" key="GridCell.Tab.0.left/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588818766644" />
     <state width="1320" height="229" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740620" />
-    <state width="1320" height="229" key="GridCell.Tab.0.right" timestamp="1587515688015">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1874" height="338" key="GridCell.Tab.0.right" timestamp="1588818766644">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="338" key="GridCell.Tab.0.right/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588818766644" />
     <state width="1320" height="229" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740620" />
-    <state width="1320" height="229" key="GridCell.Tab.1.bottom" timestamp="1587515688015">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1874" height="353" key="GridCell.Tab.1.bottom" timestamp="1588818665827">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="353" key="GridCell.Tab.1.bottom/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588818665827" />
     <state width="1320" height="229" key="GridCell.Tab.1.bottom/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.1.bottom/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547780" />
     <state width="1320" height="229" key="GridCell.Tab.1.bottom/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343751999" />
-    <state width="1320" height="229" key="GridCell.Tab.1.center" timestamp="1587515688015">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1874" height="353" key="GridCell.Tab.1.center" timestamp="1588818665827">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="353" key="GridCell.Tab.1.center/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588818665827" />
     <state width="1320" height="229" key="GridCell.Tab.1.center/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.1.center/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547780" />
     <state width="1320" height="229" key="GridCell.Tab.1.center/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343751999" />
-    <state width="1320" height="229" key="GridCell.Tab.1.left" timestamp="1587515688015">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1874" height="353" key="GridCell.Tab.1.left" timestamp="1588818665827">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="353" key="GridCell.Tab.1.left/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588818665827" />
     <state width="1320" height="229" key="GridCell.Tab.1.left/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.1.left/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547780" />
     <state width="1320" height="229" key="GridCell.Tab.1.left/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343751998" />
-    <state width="1320" height="229" key="GridCell.Tab.1.right" timestamp="1587515688015">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1874" height="353" key="GridCell.Tab.1.right" timestamp="1588818665827">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state width="1874" height="353" key="GridCell.Tab.1.right/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588818665827" />
     <state width="1320" height="229" key="GridCell.Tab.1.right/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.1.right/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547780" />
     <state width="1320" height="229" key="GridCell.Tab.1.right/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343751999" />
+    <state x="1909" y="276" width="824" height="526" key="IDE.errors.dialog" timestamp="1588818151503">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1909" y="276" width="824" height="526" key="IDE.errors.dialog/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588818151503" />
     <state x="493" y="197" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1587249712124">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -217,9 +379,10 @@
       <screen x="0" y="0" width="1920" height="1848" />
     </state>
     <state x="306" y="1154" width="1366" height="618" key="new project wizard/0.0.1920.1848@0.0.1920.1848" timestamp="1586663512204" />
-    <state x="624" y="246" width="672" height="677" key="run.anything.popup" timestamp="1587259622100">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1990" y="246" width="672" height="677" key="run.anything.popup" timestamp="1588814592478">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="1990" y="246" width="672" height="677" key="run.anything.popup/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588814592478" />
     <state x="624" y="246" width="672" height="677" key="run.anything.popup/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587259622100" />
     <state x="623" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1587316941796">
       <screen x="0" y="0" width="1920" height="1080" />
