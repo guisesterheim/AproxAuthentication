@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd73d47f-7f1f-4199-8543-addbd70302ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +121,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.PROD">
+  <component name="RunManager" selected="Application.DEV">
     <configuration name="DEV" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.aprox.Application" />
       <module name="Authentication.main" />
@@ -255,31 +261,31 @@
     </state>
     <state x="2109" y="297" width="424" height="484" key="FileChooserDialogImpl/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588810191688" />
     <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587264595152" />
-    <state width="1874" height="338" key="GridCell.Tab.0.bottom" timestamp="1588859623521">
+    <state width="1874" height="338" key="GridCell.Tab.0.bottom" timestamp="1588861931917">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="338" key="GridCell.Tab.0.bottom/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588859623521" />
+    <state width="1874" height="338" key="GridCell.Tab.0.bottom/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588861931917" />
     <state width="1320" height="229" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.bottom/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740621" />
-    <state width="1874" height="338" key="GridCell.Tab.0.center" timestamp="1588859623521">
+    <state width="1874" height="338" key="GridCell.Tab.0.center" timestamp="1588861931917">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="338" key="GridCell.Tab.0.center/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588859623521" />
+    <state width="1874" height="338" key="GridCell.Tab.0.center/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588861931917" />
     <state width="1320" height="229" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.center/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740620" />
-    <state width="1874" height="338" key="GridCell.Tab.0.left" timestamp="1588859623520">
+    <state width="1874" height="338" key="GridCell.Tab.0.left" timestamp="1588861931916">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="338" key="GridCell.Tab.0.left/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588859623520" />
+    <state width="1874" height="338" key="GridCell.Tab.0.left/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588861931916" />
     <state width="1320" height="229" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.left/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740620" />
-    <state width="1874" height="338" key="GridCell.Tab.0.right" timestamp="1588859623521">
+    <state width="1874" height="338" key="GridCell.Tab.0.right" timestamp="1588861931917">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="338" key="GridCell.Tab.0.right/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588859623521" />
+    <state width="1874" height="338" key="GridCell.Tab.0.right/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1588861931917" />
     <state width="1320" height="229" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1587515688015" />
     <state width="1874" height="229" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1587498547889" />
     <state width="1320" height="229" key="GridCell.Tab.0.right/306.1080.1366.768/0.0.1920.1080@306.1080.1366.768" timestamp="1587343740620" />
