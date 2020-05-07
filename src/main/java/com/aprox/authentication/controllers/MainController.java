@@ -38,6 +38,7 @@ public class MainController {
 
     @GetMapping("/healthCheck")
     public String index(){
+        System.out.println("healthCheck try");
         return "OK";
     }
 
@@ -61,6 +62,8 @@ public class MainController {
 
     @PostMapping("/authenticate")
     public ResponseEntity login(@RequestBody FrontAuthentication frontAuthentication){
+        System.out.println("authenticate try");
+
         UsernamePasswordAuthenticationToken authReq = new UsernamePasswordAuthenticationToken(
                                                             frontAuthentication.getUsername(),
                                                             frontAuthentication.getPassword());

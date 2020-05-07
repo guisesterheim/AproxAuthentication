@@ -42,6 +42,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
 
         http.csrf().disable()
                 .authorizeRequests()
+                .antMatchers(HttpMethod.GET, "/healthCheck").permitAll()
                 .antMatchers(HttpMethod.POST, "/authenticate").permitAll()
                 .anyRequest().authenticated()
                 .and()
